@@ -254,9 +254,9 @@
     Private Sub cargarDetalle()
         frmDetalleDeVenta.txtId.Text = dataListado.SelectedCells.Item(1).Value
         frmDetalleDeVenta.txtIdCliente.Text = dataListado.SelectedCells.Item(2).Value
-        frmDetalleDeVenta.txtNombreCliente.Text = dataListado.SelectedCells.Item(3).Value
-        frmDetalleDeVenta.txtFecha.Text = dataListado.SelectedCells.Item(4).Value
-        frmDetalleDeVenta.txtTotal.Text = dataListado.SelectedCells.Item(5).Value
+        frmDetalleDeVenta.txtNombreCliente.Text = dataListado.SelectedCells.Item(5).Value
+        frmDetalleDeVenta.txtFecha.Text = dataListado.SelectedCells.Item(3).Value
+        frmDetalleDeVenta.txtTotal.Text = dataListado.SelectedCells.Item(4).Value
 
         frmDetalleDeVenta.ShowDialog()
     End Sub

@@ -156,12 +156,12 @@ Partial Class frmVenta
         dataListado.AllowUserToDeleteRows = False
         dataListado.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize
         dataListado.Columns.AddRange(New DataGridViewColumn() {Eliminar})
-        dataListado.Location = New Point(29, 104)
+        dataListado.Location = New Point(33, 98)
         dataListado.Name = "dataListado"
         dataListado.ReadOnly = True
         dataListado.RowHeadersWidth = 51
         dataListado.SelectionMode = DataGridViewSelectionMode.FullRowSelect
-        dataListado.Size = New Size(818, 401)
+        dataListado.Size = New Size(722, 401)
         dataListado.TabIndex = 0
         ' 
         ' Eliminar
@@ -190,7 +190,7 @@ Partial Class frmVenta
         GroupBox2.Controls.Add(dataListado)
         GroupBox2.Location = New Point(457, 46)
         GroupBox2.Name = "GroupBox2"
-        GroupBox2.Size = New Size(853, 578)
+        GroupBox2.Size = New Size(784, 578)
         GroupBox2.TabIndex = 3
         GroupBox2.TabStop = False
         GroupBox2.Text = "Listado de Ventas"
@@ -274,7 +274,7 @@ Partial Class frmVenta
         ' 
         AutoScaleDimensions = New SizeF(8F, 20F)
         AutoScaleMode = AutoScaleMode.Font
-        ClientSize = New Size(1322, 671)
+        ClientSize = New Size(1260, 671)
         Controls.Add(GroupBox2)
         Controls.Add(GroupBox1)
         Name = "frmVenta"
